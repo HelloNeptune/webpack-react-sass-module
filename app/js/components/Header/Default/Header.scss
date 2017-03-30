@@ -1,0 +1,9 @@
+@mixin test( $param1 )
+{
+    color: $param1;
+}
+
+.header {
+    height: 40px;
+    background: red;
+}

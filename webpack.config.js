@@ -1,5 +1,6 @@
 /**
  * Created by A.Burak ABDIKOGLU on 28.03.2017.
+ *
  */
 
 /****************************
@@ -71,7 +72,7 @@ const webpack =
                     {
                         modules: true,
                         importLoaders: 1,
-                        localIdentName: '[local]___[hash:base64:12]'
+                        localIdentName: '[hash:base64:24]'
                     }
                 }, 'postcss-loader', 'sass-loader' ]
             })

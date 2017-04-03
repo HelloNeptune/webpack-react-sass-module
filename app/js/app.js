@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/Header/Default/Header.jsx';
+import Routes from './components/Routes';
+/**
+ * @type: HTMLElement
+ */
+const Container = document.getElementById( 'app' );
 
-// Render main app
+// Render application
 // #
-ReactDOM.render(
-    <Header />,
-    document.getElementById( 'app' )
-);
+ReactDOM.render( <Routes />, Container );
